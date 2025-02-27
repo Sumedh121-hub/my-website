@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Information</title>
+    <!-- Link to Google Fonts for stylish text -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1 class="title">Medicines Suggestor</h1>
+    </header>
+
+    <div class="container">
+        <!-- Search Bar Section -->
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search for a disease..." oninput="filterDiseases()">
+            <ul id="suggestionsList" class="suggestions-list"></ul>
+        </div>
+
+        <!-- Disease Cards List -->
+        <div id="diseaseList" class="disease-list">
+            <!-- Disease cards will be populated here dynamically -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p class="footer-text">Made by Madhav, Om, and Shreyadip</p>
+    </div>
+
+    <script src="vs.js"></script>
+</body>
+</html>
