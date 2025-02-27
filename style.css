@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  /* Force GitHub Pages update */
   body {
     font-family: Arial, sans-serif;
     background: url('./images/my-image.jpg') no-repeat center center fixed;
